@@ -62,11 +62,11 @@ inventory = {
 }
 ```
 
-Complete the `number_inventory` function. It takes a dictionary, inventory, and prints the inventory in a numbered format.
+Complete the `number_inventory` function. It takes a dictionary, `inventory`, and prints the inventory in a numbered format.
 
 1. Use `enumerate()` to number each item, starting at `1`.
-2. Format each line as "<number>. <item> x<quantity>".
-    For example, the key-value pair `"Ice Arrow": 5` should print `1. Ice Arrow x5.`
+2. Format each line as "number. item x quantity".
+    For example, the key-value pair `"Ice Arrow": 5` should print `1. Ice Arrow x 5.`
 3. Print each item on its own line.
 
 **Hint:** Iterate over the dictionary using `.items()`. Each item returned by `.items()` is a (key, value) tuple that can be unpacked while using enumerate().
